@@ -69,5 +69,5 @@ The project follows a clean, modular architecture:
 
 ## Links
 
-*   **YouTube:** (Skipped - AI Agent cannot upload)
-*   **GitHub:** [Local Repository]
+*   **YouTube:** https://youtu.be/u2Hd6SrcmF0
+*   **GitHub:** https://github.com/abshwabu/trp1-ai-artist.git
