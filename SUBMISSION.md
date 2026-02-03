@@ -10,6 +10,16 @@
     *   `GEMINI_API_KEY` added and verified.
     *   Successfully generated live AI audio using the `lyria` provider.
 
+### Security Note
+*   **.env Protection:** The `.env` file is explicitly included in `.gitignore` to prevent accidental commits of API keys.
+*   **Secret Management:** For production/shared environments, I recommend using a secret manager (like Doppler or AWS Secrets Manager) rather than local `.env` files.
+
+## CLI Verification
+To ensure the environment is fully functional, the following commands were verified:
+1.  `uv run ai-content list-providers`: Confirms all provider plugins (Lyria, Veo, MiniMax, Kling) are registered.
+2.  `uv run ai-content list-presets`: Verifies that the YAML/Python preset configurations are correctly parsed.
+3.  `uv run ai-content --help`: Confirms the Typer CLI structure is intact.
+
 ## Codebase Understanding
 
 ### Architecture
